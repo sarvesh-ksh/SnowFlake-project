@@ -1,15 +1,43 @@
-Welcome to your new dbt project!
+<p align="center">
+  <img src="https://img.shields.io/badge/Snowflake-Data%20Warehouse-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/dbt-Transformation-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/AWS-Cloud-yellow?style=for-the-badge" />
+</p>
+❄️ Snowflake Data Pipeline
 
-### Using the starter project
+Building clean, scalable data pipelines with Snowflake + dbt + AWS
 
-Try running the following commands:
-- dbt run
-- dbt test
+⚡ Overview
 
+A modern data pipeline transforming raw data into analytics-ready insights using cloud-native tools.
 
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+🧊 Stack
+
+Snowflake • dbt • AWS • SQL • Python
+
+🏗️ Flow
+Raw Data → Snowflake → dbt → Clean Models → Insights
+📂 Structure
+models/
+ ├── staging/
+ ├── intermediate/
+ └── marts/
+
+seeds/
+tests/
+macros/
+🚀 Run
+dbt run
+dbt test
+✨ Highlights
+Clean dbt models
+Scalable Snowflake warehouse
+Production-style pipeline
+Analytics-ready output
+👨‍💻 Author
+
+Sarvesh
+
+⭐
+
+If this helped or inspired you, drop a star ⭐
